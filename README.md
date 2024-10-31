@@ -1,2 +1,4 @@
-# IMPORT
-a list of importable fucntions i made
+# ching
+money money money!!
+## about
+ching is a money tracking python ibrary if you didnt know :|

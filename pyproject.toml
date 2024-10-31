@@ -6,7 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "ching"
 version = "1.0.0"
 description = "A simple money management library"
-authors = [{ name = "Webbrowser11", email = "terpstragraham@gmail.com" }]
+authors = [
+    { name = "Graham", email = "terpstragraham@gmail.com" }
+]
 readme = "README.md"
 license = { text = "BSD-3-Clause" }
 dependencies = []

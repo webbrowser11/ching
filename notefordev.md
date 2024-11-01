@@ -5,7 +5,7 @@ info for devs
 ### download:
 download the source code
 ## change directories
-`cd C:\Users\Graham\Downloads\ching-1.1.2` (next version)
+`cd C:\Users\Graham\Downloads\ching-{version}` (next version)
 ## build:
 `python -m build`
 ##

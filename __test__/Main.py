@@ -43,3 +43,7 @@ print(f"Current money after yearly income check: {ching.money}")
 # Set the allowance for a specific weekday
 ching.allowance("Monday")  # Change this to the current day of the week if needed
 print(f"Current money after checking allowance: {ching.money}")
+
+# Limit money usally at the end of the program but before the ching.printmoney() function is called
+ching.limitmoney(3)
+ching.printmoney()

@@ -103,5 +103,10 @@ def allowance(weekday):
         money += 50  # Increment money (example amount for allowance)
         __update_money_file()
 
+def limitmoney(moneylimit):
+    global money
+    if money > moneylimit:
+        money = moneylimit
+
 # Initialize money file on library load
 __initialize_money_file()

@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 import os
 
 money = 0
+attempt_amount = 0
 
 # Ensure money.txt exists and initialize it with 0 if empty
 def __initialize_money_file():
@@ -107,6 +108,9 @@ def limitmoney(moneylimit):
     global money
     if money > moneylimit:
         money = moneylimit
+        print("money limit eceeded automatically set")
+        attempt_amount =+ 1
+        print("attempt logged")
 
 # Initialize money file on library load
 __initialize_money_file()

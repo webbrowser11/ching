@@ -3,6 +3,7 @@ import os
 
 money = 0
 attempt_amount = 0
+AddMoneyAcsess = True
 
 # Ensure money.txt exists and initialize it with 0 if empty
 def __initialize_money_file():
@@ -36,7 +37,10 @@ def minusmoney(moneytominus):
 
 # Print the current money amount
 def printmoney():
-    print(money)
+    if AddMoneyAcsess != False:
+        print(money)
+    else:
+        print("sorry looks like your acsess to this function has been blocked for the rest of this session.")
 
 # Function to get the current date and log it to logfile.txt
 def getdate():
@@ -111,6 +115,11 @@ def limitmoney(moneylimit):
         print("money limit eceeded automatically set")
         attempt_amount =+ 1
         print("attempt logged")
+    if attempt_amount == 5:
+        money = moneylimit
+        print("money limit reached.")
+        print("acsess to the printmoney() function is denied")
+        AddMoneyAcsess = False
 
 # Initialize money file on library load
 __initialize_money_file()

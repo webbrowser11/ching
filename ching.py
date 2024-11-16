@@ -26,8 +26,11 @@ def __update_money_file():
 # Add money to allowance
 def addmoney(moneytoadd):
     global money
-    money += moneytoadd
-    __update_money_file()
+    if AddMoneyAcsess != False:
+        money += moneytoadd
+        __update_money_file()
+    else:
+        print("sorry looks like your access to this function has been blocked for the rest of this session.")
 
 # Subtract money from allowance
 def minusmoney(moneytominus):
@@ -40,7 +43,7 @@ def printmoney():
     if AddMoneyAcsess != False:
         print(money)
     else:
-        print("sorry looks like your acsess to this function has been blocked for the rest of this session.")
+        print("sorry looks like your access to this function has been blocked for the rest of this session.")
 
 # Function to get the current date and log it to logfile.txt
 def getdate():

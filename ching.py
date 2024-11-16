@@ -1,6 +1,8 @@
 from datetime import datetime, timedelta
 import os
 
+# test
+
 money = 0
 attempt_amount = 0
 AddMoneyAcsess = True

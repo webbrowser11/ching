@@ -115,13 +115,13 @@ def limitmoney(moneylimit):
     global money
     if money > moneylimit:
         money = moneylimit
-        print("money limit eceeded automatically set")
+        print("money limit exceeded automatically set")
         attempt_amount =+ 1
         print("attempt logged")
     if attempt_amount == 5:
         money = moneylimit
         print("money limit reached.")
-        print("acsess to the printmoney() function is denied")
+        print("acsess to the printmoney() and addmoney() function is denied")
         AddMoneyAcsess = False
 
 # Initialize money file on library load

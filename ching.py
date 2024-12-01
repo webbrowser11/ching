@@ -89,7 +89,7 @@ def incomedate(date, interval):
     elif interval == 'hourly':
         comparison_date = today - timedelta(hours=1)
     elif interval == 'yearly':
-        comparison_date = today - timedelta(days=365)  # Roughly a year, can be adjusted for leap years
+        comparison_date = today - timedelta(days=365)
     else:
         print("Invalid interval specified.")
         return
@@ -102,7 +102,7 @@ def incomedate(date, interval):
     else:
         print("No income yet.")
 
-# Weekly allowance function
+# Weekly allowance function (for kids)
 def allowance(weekday):
     global money
     today_weekday = datetime.now().strftime("%A").lower()  # Get the current weekday as a string

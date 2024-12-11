@@ -2,7 +2,7 @@
 
 import ching
 
-# Initialize the money file not meant to be used for public use but is here on library load if needed use this function if money tracking file is not behaving
+# Initialize the money file. command not meant to be used for public use but is here there is needed use this function or if the money tracking file is not behaving
 ching.__initialize_money_file()
 
 # Add money to allowance

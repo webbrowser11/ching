@@ -18,4 +18,4 @@ ching.addmoney(NumberValue) # add an amount of money to the tracking file.
 ching.minusmoney(NumberValue) # minus an amount of money from the tracking file.
 ching.printmoney() # print the amount of money in your tracking file
 ```
-all examples [here](https://github.com/webbrowser11/ching/blob/main/__test__/Main.py)
+all examples [here](https://github.com/webbrowser11/ching/blob/main/examples/Main.py)

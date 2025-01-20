@@ -9,4 +9,4 @@ download the source code
 ## build:
 `python -m build`
 ##
-`C:\Users\Terps\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts\twine.exe upload dist/*`
+`C:\Users\terps\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts\twine.exe upload dist/*`

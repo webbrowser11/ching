@@ -1,5 +1,4 @@
-
-![Auto Publish](https://github.com/webbrowser11/ching/actions/workflows/python-publish.yml/badge.svg)
+![ ](https://github.com/webbrowser11/ching/actions/workflows/python-publish.yml/badge.svg)
 
 # ching
 money money money!

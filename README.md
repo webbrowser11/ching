@@ -7,7 +7,7 @@ ching is a money tracking library for python!
 ## never wanted to track your money
 this is the library for you!
 it has built in money tracking functions and more!
-it also has security and blocks you from ecxeeding your moneylimit (made in the: moneylimit(NumberValue) function.)
+it also has security and blocks you from exceeding your money limit, if you need to track kid's money, and you make a mistake or they enter a larger number. (made in the: moneylimit(NumberValue) function.)
 ## install
 install latest version: `pip install ching` (recommended)
 install certain version `pip install ching==(version)` (not recommended)
